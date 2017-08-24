@@ -37,3 +37,16 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+.image{
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.caption{
+  text-align: center;
+  margin-top: .5em;
+  color: #777;
+}
