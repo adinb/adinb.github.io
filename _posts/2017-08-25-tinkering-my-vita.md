@@ -2,8 +2,9 @@
 layout: post
 title:  "Tinkering My PS Vita"
 date:    2017-08-25 00:30:00 +0700
+categories: log
 ---
-I bought a 2nd hand Vita on May last year. 2 games were included in the package: FIFA 2013 and ~~Anime Tiddies: The Game~~ Senran Kagura Shinovi Versus. The following week, I sold Senran Kagura. That game is... just not my thing. I didn't find interesting game with low price in my local Vita marketplace, so I was stuck with that FIFA. However, it gets boring after few dozens of consecutive plays. In the end I borrowed Disgaea 3 from my friend and played it for around two month until I got bored again.
+I bought a 2nd hand Vita on May last year. 2 games were included in the package: FIFA 2013 and ~~Anime Tiddies: The Game~~ Senran Kagura Shinovi Versus. Senran Kagura is not really my thing, however. I sold it the following week and got stuck playing only that FIFA. Sadly it gets boring after few consecutive plays. Few days later, I borrowed Disgaea 3 from my friend and played it for around two month until I got bored again.
 
 When I was browsing for more game info, I stumbled upon a forum thread (or a blog post, I forget the details) about a release of homebrew enabler called [HENkaku](http://henkaku.xyz) for PS Vita. It had been known that Vita is very hard to hack, so I immediately interested. I tried to install HENkaku, and it works. I was really excited seeing a proper file manager inside my Vita. You can browse files, including system files inside your PS Vita using that file manager. Even more , you can even transfer any files via FTP.
 
