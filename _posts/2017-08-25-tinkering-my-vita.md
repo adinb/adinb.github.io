@@ -4,7 +4,7 @@ title:  "Tinkering My PS Vita"
 date:    2017-08-25 00:30:00 +0700
 categories: log
 ---
-I bought a 2nd hand Vita on May last year. 2 games were included in the package: FIFA 2013 and ~~Anime Tiddies: The Game~~ Senran Kagura Shinovi Versus. Senran Kagura is not really my thing, however. I sold it the following week and got stuck playing only that FIFA. Sadly it gets boring after few consecutive plays. Few days later, I borrowed Disgaea 3 from my friend and played it for around two month until I got bored again.
+I bought a 2nd hand Vita on May last year. 2 games were included in the package: FIFA 2013 and Senran Kagura Shinovi Versus. Senran Kagura has some questionable content, and is not really my thing so sold it the following week and then got stuck only playing FIFA. Sadly it gets boring after few consecutive plays. Few days later, I borrowed Disgaea 3 from my friend and played it for around two month until I got bored again.
 
 When I was browsing for more game info, I stumbled upon a forum thread (or a blog post, I forget the details) about a release of homebrew enabler called [HENkaku](http://henkaku.xyz) for PS Vita. It had been known that Vita is very hard to hack, so I immediately interested. I tried to install HENkaku, and it works. I was really excited seeing a proper file manager inside my Vita. You can browse files, including system files inside your PS Vita using that file manager. Even more , you can even transfer any files via FTP.
 
@@ -32,4 +32,4 @@ Congratulations! You have enabled homebrew in your PS Vita.
 # Now What?
 You can start browse files inside your Vita using FTP client like [FileZilla](https://filezilla-project.org/). To start FTP connection, both of your PSVita and your PC must be connected to a same local connection. Open molecularShell and press `SELECT` to start the FTP server. Then a dialog will pop out with server information. Connect to that server using FTP client and you are good to go. Go find some ~~game dumps~~ homebrews and install it by putting the .vpk file inside `ux0:` then open it inside molecularShell. As for me, I ended up installing a cool homebrew called [VITAident](https://github.com/joel16/VITAident) this time. It shows you various information about your machine. Very cool homebrew indeed.
 
-I'm planning to make this post as part of a series. In the next part, I'm going to write simple program and run it on my Vita.
+I'm planning to make this post as part of a series. In the [next part]({{site.baseurl}}{% link _posts/2018-12-12-hello-world-vita.md %}), I'm going to write simple program and run it on my Vita.
