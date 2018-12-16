@@ -2,13 +2,13 @@
 layout: post
 title:  "Tinkering My PS Vita: Hello World"
 date:    2018-12-12 02:00:00 +0700
-excerpt: Following my last post, we are going to write a hello world app and ran it on Vita. Why hello world you ask? For me, it at least helped me understand on how to compile and run the application. This is important for me, as I usually iterate very often when I'm programming.
+excerpt: Following my last post, we are going to write a hello world app and ran it on Vita.
 categories: log
 ---
 **DISCLAIMER:**
 **I write this mainly to help myself learn things more easily so I can't guarantee the accuracy of the informations presented here.**
 
-Following my [last post]({{site.baseurl}}{% link _posts/2017-08-25-tinkering-my-vita.md %}), we are going to write a **hello world** app and ran it on Vita. Why hello world you ask? For me, it at least helped me understand on how to compile and run the application. This is important for me, as I usually iterate very often when I'm programming.
+Following my [last post]({{site.baseurl}}{% link _posts/2017-08-25-tinkering-my-vita.md %}), we are going to write a **hello world** app and ran it on Vita. This approach helped me to focus on how to compile and run the application.
 
 To build and run your application on Vita, you will need to have your Vita jailbroken and Vita SDK properly set up. In this post, I will assume you already have your Vita jailbroken. Also, it'll be better if you are already familiar with C programming.
 
@@ -34,10 +34,9 @@ The flow is quite obvious. After writing the text to the screen, we call [sceKer
 
 Put this following code in `src/main.c`.
 
-```
+```c
 #include <psp2/kernel/threadmgr.h>
 #include <psp2/kernel/processmgr.h>
-
 #include "debugScreen.h"
 
 #define printf psvDebugScreenPrintf
@@ -101,7 +100,7 @@ First, we will need a script named `CMakeLists.txt` in your root project directo
 I won't talk about the build process in detail for now. However, there are some parts that you might be interested in.
 
 This command determine directory to search for headers. You can put the directory you used to store the utility from earlier.
-```
+```cmake
 include_directories(
   ../common 
 )
@@ -109,7 +108,7 @@ include_directories(
 ```
 
 Application metadata are also described here.
-```
+```cmake
 ## Configuration options for this app
 # Display name (under bubble in LiveArea)
 set(VITA_APP_NAME "Hello World")
@@ -121,7 +120,7 @@ set(VITA_VERSION  "01.00")
 ```
 
 Those values are used by this function to bundle the application. You can also configure application bundle file name here.
-```
+```cmake
 vita_create_vpk(hello_world.vpk ${VITA_TITLEID} hello_world.self
   VERSION ${VITA_VERSION}
   NAME ${VITA_APP_NAME}
@@ -143,6 +142,6 @@ Below are some screenshots on how it will look on the Vita
 {% include image.html url="/images/hello_world_livearea.jpg" max-width="100px" description="Livearea display" %}
 {% include image.html url="/images/hello_world.jpg" max-width="100px" description="Pardon the angle, but Hello world!" %}
 
-Building and running Hello World application on your Vita is exciting, no? In the next part I am going to build a third party library and use it in my own application. Stay tuned!
+Building and running Hello World application on your Vita is exciting, no? In the next part I am going to build a third party library and use it in my own application, but for now you can check [this post]({{site.baseurl}}{% link _posts/2018-12-16-interlude-emulator.md %}) about testing your PS Vita application in your PC. 
 
-
+Stay tuned!

@@ -2,6 +2,7 @@
 layout: post
 title:  "Tinkering My PS Vita"
 date:    2017-08-25 00:30:00 +0700
+excerpt: I bought a 2nd hand Vita on May last year.
 categories: log
 ---
 I bought a 2nd hand Vita on May last year. 2 games were included in the package: FIFA 2013 and Senran Kagura Shinovi Versus. Senran Kagura has some questionable content, and is not really my thing so sold it the following week and then got stuck only playing FIFA. Sadly it gets boring after few consecutive plays. Few days later, I borrowed Disgaea 3 from my friend and played it for around two month until I got bored again.
