@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tinkering My PS Vita: Hello World"
-date:    2018-12-12 02:00:00 +0700
+date:    2018-12-12 08:00:00 +0700
 excerpt: Following my last post, we are going to write a hello world app and ran it on Vita.
 categories: log
 ---
