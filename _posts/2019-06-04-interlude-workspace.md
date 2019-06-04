@@ -58,7 +58,7 @@ source ~/.vim/vimrc
 source ~/.vim/vita-vimrc
 ```
 
-This way, I can keep the main configuration clean and commit it separately.
+This way, I can keep the main configuration clean and commit it separately. If you're interested in my main Neovim configuration, you can check it [here](https://github.com/adinb/dotfiles/blob/master/vim/vimrc).
 
 # Project specific config loader
 Because I also use Neovim to work on other projects, I want my Vita toolchain custom config to be applied just for Vita projects. To achieve that, I use the autocmd feature in Neovim. Simply put, the command will be executed every time I open a file inside my Vita workspace directory.
