@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tinkering My PS Vita Interlude: My Workspace"
-date:    2019-06-04 16:00:00 +0700
+date:    2019-06-04 09:00:00
 excerpt: We won't write a game just yet.
 categories: log
 ---

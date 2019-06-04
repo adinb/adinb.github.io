@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tinkering My PS Vita"
-date:    2017-08-25 00:30:00 +0700
+date:    2017-08-25 08:30:00
 excerpt: I bought a 2nd hand Vita on May last year.
 categories: log
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tinkering My PS Vita Interlude: Emulator"
-date:    2018-12-16 14:00:00 +0700
+date:    2018-12-16 14:00:00
 excerpt: Today I learned PSVita emulator exists. 
 categories: log
 ---
