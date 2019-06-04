@@ -5,8 +5,7 @@ date:    2018-12-16 14:00:00 +0700
 excerpt: Today I learned PSVita emulator exists. 
 categories: log
 ---
-**DISCLAIMER:**
-**I write this mainly to help myself learn things more easily so I can't guarantee the accuracy of the informations presented here.**
+{% include vita-series-list.html %}
 
 Today I learned PSVita emulator exists. Well to be honest, I've already heard the news since couple of months ago, but I haven't had chance to download and try the emulator.
 

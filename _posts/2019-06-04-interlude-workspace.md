@@ -5,7 +5,7 @@ date:    2019-06-04 16:00:00 +0700
 excerpt: We won't write a game just yet.
 categories: log
 ---
-DISCLAIMER: I write this to learn the PSVita system more easily. I can’t guarantee the accuracy of the information presented here.
+{% include vita-series-list.html %}
 
 People usually are quite fussy with their development environment, and so do I. I use a text editor called Neovim as my main editor. For you who haven’t heard it, Neovim is a Vim-based text editor with extra features and a nice community. I will talk about my current workspace setup for writing Vita programs.
 

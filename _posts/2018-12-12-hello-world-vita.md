@@ -5,8 +5,7 @@ date:    2018-12-12 02:00:00 +0700
 excerpt: Following my last post, we are going to write a hello world app and ran it on Vita.
 categories: log
 ---
-**DISCLAIMER:**
-**I write this mainly to help myself learn things more easily so I can't guarantee the accuracy of the informations presented here.**
+{% include vita-series-list.html %}
 
 Following my [last post]({{site.baseurl}}{% link _posts/2017-08-25-tinkering-my-vita.md %}), we are going to write a **hello world** app and ran it on Vita. This approach helped me to focus on how to compile and run the application.
 
