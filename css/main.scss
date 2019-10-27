@@ -45,6 +45,13 @@ $on-laptop:        800px;
   margin-bottom: 1em;
 }
 
+.video{
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
 .caption{
   text-align: center;
   margin-top: .5em;
@@ -58,5 +65,5 @@ $on-laptop:        800px;
 
 .separator {
   width: .5em;
-  display: inline-block;  
+  display: inline-block;
 }
