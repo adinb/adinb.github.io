@@ -15,7 +15,7 @@ I use the recommended setup on the official webpage.
 # Linting
 I rely on [ALE plugin](https://github.com/w0rp/ale) for linting. ALE is compatible with gcc, which we use to compile our codes. However, it’s not fully working out of the box because it's using default installation of gcc.
 
-{% include image.html url="/images/vita-linter.jpg" max-width="100px" description="Nicely detailed error message" %}
+{% include image.html url="/images/vita-linter.webp" max-width="100px" description="Nicely detailed error message" %}
 
 Below is my ALE configuration. It’s fairly self-explanatory, but the idea is to use the VitaSDK toolchain instead of installed gcc. I also add a directory containing shared headers that don’t belong to the toolchain.
 
@@ -30,7 +30,7 @@ I have a hardcoded path there, but I prefer this rather than having a global var
 # Code completion
 I’ve been spoiled by IDE code completion, so I want that in my tools as well. Just look at this screenshot below. You can open the image in a new tab or window to see it more clearly.
 
-{% include image.html url="/images/vita-completion.jpg" max-width="100px" description="This will be very helpful" %}
+{% include image.html url="/images/vita-completion.webp" max-width="100px" description="This will be very helpful" %}
 
 For autocompletion, I use [YCM](https://github.com/Valloric/YouCompleteMe). It has excellent C completion and diagnostic support. I also have to supply custom compile flags so it can provide completion for the headers. YCM provides an easy way to do this using `.ycm_extra_conf.py` inside the project root directory.
 

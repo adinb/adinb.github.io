@@ -15,7 +15,7 @@ I also found an open source toolchain for Vita development. I'm a nerd, so I tri
 
 Inevitably, piracy also started showing at that time, as the access to game data is easier. Being a cheap person, I searched for pirated games and I found Ar Nosurge, a game I want to play since a long time ago. I played that until around last month (I even got the platinum trophy). Driven by guilt for pirating a game, I decided to tinker my Vita again and make homebrew after finishing that game. PS Vita hacking scene has improved quite a bit since last time. And so, I start my journey again from the beginning.
 
-{% include image.html url="/images/platinum.jpg" description="Beautiful." %}
+{% include image.html url="/images/platinum.webp" description="Beautiful." %}
 
 # Installing HENkaku
 Proceed with your own risk. HENkaku installation is safe, but anything can happen. Also, this whole process only works with firmware 3.60. if your firmware is newer than that, currently no way for installing HENkaku. However if it's lower than that, you can follow the instruction [here](http://henkaku.xyz/usage/). Note that I only have one Vita, so I haven't try the guide. This post is more like my log for installing HENkaku rather than tutorial. Proper guide for installing HENkaku can be found at <http://henkaku.xyz/usage>.
@@ -24,11 +24,11 @@ The installation process hasn't changed since I started tinkering my vita last y
 
 After the installation is completed, your vita will automatically return to Live Area. There, you can find a new app called molecularShell. You can use that to transfer file with your PC via FTP.
 
-{% include image.html url="/images/live_area.jpg" description="molecularShell bubble." %}
+{% include image.html url="/images/live_area.webp" description="molecularShell bubble." %}
 
 If you check the Vita settings, there'll also a new menu called `HENkaku Settings`. You can configure various settings such as version spoofing and unsafe homebrew support.
 
-{% include image.html url="/images/vita_settings.jpg" description="New settings menu" %}
+{% include image.html url="/images/vita_settings.webp" description="New settings menu" %}
 
 Congratulations! You have enabled homebrew in your PS Vita.
 

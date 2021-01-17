@@ -25,7 +25,7 @@ To run your program, you can put your `.vpk` file as first parameter of the emul
 
 After you run the command, Vita3K will install your program and run it. Then, if you execute the emulator without any parameter it will present you with list of installed programs. You can then press **G** to hide the GUI.
 
-{% include image.html url="/images/vita3k_list.jpg" max-width="100px" description="Vita3K program list" %}
+{% include image.html url="/images/vita3k_list.webp" max-width="100px" description="Vita3K program list" %}
 
 To test the emulator, I used the [hello_world program]({{site.baseurl}}{% link _posts/2018-12-12-hello-world-vita.md %}) I created [earlier], with a `printf` to see whether it actually waited for 3 seconds or not.
 
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
 
 Below is what it looks in the emulator. You can right click the image > `View Image` to see it more clearly.
 
-{% include image.html url="/images/vita3k_hello_world.jpg" max-width="100px" description="It works!" %}
+{% include image.html url="/images/vita3k_hello_world.webp" max-width="100px" description="It works!" %}
 
 # Thoughts
 The emulator will be very useful as debugging tool, especially for features that don't need fancy Vita features. Also, it's more fun to run your program in the actual device :). I have yet to discover what the limit of this emulator, but we will find out later after I've done some more implementations.

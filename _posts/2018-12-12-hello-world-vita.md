@@ -59,11 +59,11 @@ Those files will be in `sce_sys` directory. That directory will roughly be like 
 
 ```
 sce_sys
-├── icon0.png (1)
+├── icon0.webp (1)
 └── livearea
     └── contents
-        ├── bg.png (2)
-        ├── startup.png (3)
+        ├── bg.webp (2)
+        ├── startup.webp (3)
         └── template.xml (4)
 ```
 
@@ -79,11 +79,11 @@ After following the steps, your project directory structure will be like this:
 ```
 hello_world
 ├── sce_sys
-│   ├── icon0.png
+│   ├── icon0.webp
 │   └── livearea
 │       └── contents
-│           ├── bg.png
-│           ├── startup.png
+│           ├── bg.webp
+│           ├── startup.webp
 │           └── template.xml
 └── src
     └── main.c
@@ -123,9 +123,9 @@ Those values are used by this function to bundle the application. You can also c
 vita_create_vpk(hello_world.vpk ${VITA_TITLEID} hello_world.self
   VERSION ${VITA_VERSION}
   NAME ${VITA_APP_NAME}
-  FILE sce_sys/icon0.png sce_sys/icon0.png
-  FILE sce_sys/livearea/contents/bg.png sce_sys/livearea/contents/bg.png
-  FILE sce_sys/livearea/contents/startup.png sce_sys/livearea/contents/startup.png
+  FILE sce_sys/icon0.webp sce_sys/icon0.webp
+  FILE sce_sys/livearea/contents/bg.webp sce_sys/livearea/contents/bg.webp
+  FILE sce_sys/livearea/contents/startup.webp sce_sys/livearea/contents/startup.webp
   FILE sce_sys/livearea/contents/template.xml sce_sys/livearea/contents/template.xml
 )
 ```
@@ -138,8 +138,8 @@ After that, just run `make`, and watch the build running. After the build is don
 To transfer the VPK file that we have built earlier, you can use either USB connection or FTP server. I used FTP as it's easier for me to setup in my Ubuntu. Please refer [here](https://henkaku.xyz/usage/) for the exact steps.
 
 Below are some screenshots on how it will look on the Vita
-{% include image.html url="/images/hello_world_livearea.jpg" max-width="100px" description="Livearea display" %}
-{% include image.html url="/images/hello_world.jpg" max-width="100px" description="Pardon the angle, but Hello world!" %}
+{% include image.html url="/images/hello_world_livearea.webp" max-width="100px" description="Livearea display" %}
+{% include image.html url="/images/hello_world.webp" max-width="100px" description="Pardon the angle, but Hello world!" %}
 
 Building and running Hello World application on your Vita is exciting, no? In the next part I am going to build a third party library and use it in my own application, but for now you can check [this post]({{site.baseurl}}{% link _posts/2018-12-16-interlude-emulator.md %}) about testing your PS Vita application in your PC. 
 

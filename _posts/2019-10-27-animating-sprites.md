@@ -29,7 +29,7 @@ Below is the final result:
 Initially, I didn't know where all the files are stored. But it turned out that PS Vita will mount the game data to `app0` during runtime. I then prepended `app0://` in front of the file path, and then everything is working fine. [Vita dev wiki](https://playstationdev.wiki/psvitadevwiki/index.php?title=Main_Page) is a good source for these kinds of details. It's a bit messy, but with correct keywords, you should be able to find what you want.
 
 ### Rendering
-I'm using SDL2 to handle the rendering and stuff. Fortunately, there is a port of it available in the vitasdk Github so you can use vdpm to install the library. By using sdl2 and sdl2_image, you will also need to install vita2d, libpng, libjpeg, and zlib. You can also get those using vdpm.
+I'm using SDL2 to handle the rendering and stuff. Fortunately, there is a port of it available in the vitasdk Github so you can use vdpm to install the library. By using sdl2 and sdl2_image, you will also need to install vita2d, libwebp, libjpeg, and zlib. You can also get those using vdpm.
 
 To render graphics using SDL2, we first need to create an `SDL_Window` and `SDL_Renderer`. Then, we load the image, convert it to `SDL_Texture`, and call the render function inside a loop. In my case, I wrapped the render function in the sprite module so I can render the sprite more easily.
 
