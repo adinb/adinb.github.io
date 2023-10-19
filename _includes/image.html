@@ -1,4 +1,6 @@
 <figure class="image">
-  <img class= "center" src="{{ site.baseurl | append: include.url }}" alt="{{ include.description }}">
-  <figcaption class="caption">{{ include.description }}</figcaption>
+  <a href="{{ site.baseurl | append: include.url }}">
+      <img class= "center" src="{{ site.baseurl | append: include.url }}" alt="{{ include.description }}" loading="lazy">
+  </a>
+  <figcaption class="caption"><b>{{ include.description }}.</b><br>Click to see in full size.</figcaption>
 </figure> 
