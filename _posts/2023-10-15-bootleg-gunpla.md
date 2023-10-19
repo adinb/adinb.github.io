@@ -24,9 +24,9 @@ Few weeks ago, I looked at Gunpla for sale on an online marketplace. I didn't re
 
 Check this out:
 
-{% include image.html url="/images/aile-front-old.webp" description="Out of box (Front)" %}
+{% include image.html url="/images/aile-front-old.webp" description="Out of box (Front)." %}
 
-{% include image.html url="/images/aile-back-old.webp" description="Out of box (Back)" %}
+{% include image.html url="/images/aile-back-old.webp" description="Out of box (Back)." %}
 
 Honestly, it doesn't look too bad, does it? All credit goes to Bandai for designing the model kit so well, that even the counterfeits cannot completely mess it up. There are some imperfections, if you know where to look at.
 There are very noticeable seams that are not supposed to be there, obvious molding line, and cheap plastic finish.
@@ -40,11 +40,11 @@ There are also some glaring defects. Take this torso section, for example. The s
 
 Some parts also look really plain with no color separation:
 
-{% include image.html url="/images/aile-main-body-old.webp" description="So plain" %}
+{% include image.html url="/images/aile-main-body-old.webp" description="So plain." %}
 
-{% include image.html url="/images/aile-torso-seam.webp" description="Look at the seams" %}
+{% include image.html url="/images/aile-torso-seam.webp" description="Look at the seams!" %}
 
-{% include image.html url="/images/aile-backpack-part-old.webp" description="Big blob of white plastic" %}
+{% include image.html url="/images/aile-backpack-part-old.webp" description="Big blob of white plastic." %}
 
 So what is the solution? ~~Get over it, and move on with life~~ Double down and customize the model kit to my liking, of course!
 
@@ -52,6 +52,6 @@ After watching some YouTube videos and a bit of googling, I bought some model ki
 
 I'm pretty happy with the result. The decals really made the difference.
 
-{% include image.html url="/images/aile-front-new.webp" description="Final result (Front)" %}
+{% include image.html url="/images/aile-front-new.webp" description="Final result (Front)." %}
 
-{% include image.html url="/images/aile-back-new.webp" description="Final result (Back)" %}
+{% include image.html url="/images/aile-back-new.webp" description="Final result (Back)." %}
